@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2AE39201ABC151E00BDDBE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE391F1ABC151E00BDDBE2 /* main.m */; };
+		F2AE39231ABC151E00BDDBE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE39221ABC151E00BDDBE2 /* AppDelegate.m */; };
+		F2AE39261ABC151E00BDDBE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE39251ABC151E00BDDBE2 /* ViewController.m */; };
+		F2AE39291ABC151E00BDDBE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AE39271ABC151E00BDDBE2 /* Main.storyboard */; };
+		F2AE392B1ABC151E00BDDBE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2AE392A1ABC151E00BDDBE2 /* Images.xcassets */; };
+		F2AE392E1ABC151E00BDDBE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2AE392C1ABC151E00BDDBE2 /* LaunchScreen.xib */; };
+		F2AE393A1ABC151E00BDDBE2 /* SwipeGestureRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AE39391ABC151E00BDDBE2 /* SwipeGestureRecognizerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2AE39341ABC151E00BDDBE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2AE39121ABC151E00BDDBE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2AE39191ABC151E00BDDBE2;
+			remoteInfo = SwipeGestureRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2AE391A1ABC151E00BDDBE2 /* SwipeGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AE391E1ABC151E00BDDBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AE391F1ABC151E00BDDBE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2AE39211ABC151E00BDDBE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2AE39221ABC151E00BDDBE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2AE39241ABC151E00BDDBE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F2AE39251ABC151E00BDDBE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2AE39281ABC151E00BDDBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2AE392A1ABC151E00BDDBE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2AE392D1ABC151E00BDDBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F2AE39331ABC151E00BDDBE2 /* SwipeGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2AE39381ABC151E00BDDBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2AE39391ABC151E00BDDBE2 /* SwipeGestureRecognizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeGestureRecognizerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2AE39171ABC151E00BDDBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AE39301ABC151E00BDDBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2AE39111ABC151E00BDDBE2 = {
+			isa = PBXGroup;
+			children = (
+				F2AE391C1ABC151E00BDDBE2 /* SwipeGestureRecognizer */,
+				F2AE39361ABC151E00BDDBE2 /* SwipeGestureRecognizerTests */,
+				F2AE391B1ABC151E00BDDBE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2AE391B1ABC151E00BDDBE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE391A1ABC151E00BDDBE2 /* SwipeGestureRecognizer.app */,
+				F2AE39331ABC151E00BDDBE2 /* SwipeGestureRecognizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2AE391C1ABC151E00BDDBE2 /* SwipeGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE39211ABC151E00BDDBE2 /* AppDelegate.h */,
+				F2AE39221ABC151E00BDDBE2 /* AppDelegate.m */,
+				F2AE39241ABC151E00BDDBE2 /* ViewController.h */,
+				F2AE39251ABC151E00BDDBE2 /* ViewController.m */,
+				F2AE39271ABC151E00BDDBE2 /* Main.storyboard */,
+				F2AE392A1ABC151E00BDDBE2 /* Images.xcassets */,
+				F2AE392C1ABC151E00BDDBE2 /* LaunchScreen.xib */,
+				F2AE391D1ABC151E00BDDBE2 /* Supporting Files */,
+			);
+			path = SwipeGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		F2AE391D1ABC151E00BDDBE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE391E1ABC151E00BDDBE2 /* Info.plist */,
+				F2AE391F1ABC151E00BDDBE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2AE39361ABC151E00BDDBE2 /* SwipeGestureRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE39391ABC151E00BDDBE2 /* SwipeGestureRecognizerTests.m */,
+				F2AE39371ABC151E00BDDBE2 /* Supporting Files */,
+			);
+			path = SwipeGestureRecognizerTests;
+			sourceTree = "<group>";
+		};
+		F2AE39371ABC151E00BDDBE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2AE39381ABC151E00BDDBE2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2AE39191ABC151E00BDDBE2 /* SwipeGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AE393D1ABC151E00BDDBE2 /* Build configuration list for PBXNativeTarget "SwipeGestureRecognizer" */;
+			buildPhases = (
+				F2AE39161ABC151E00BDDBE2 /* Sources */,
+				F2AE39171ABC151E00BDDBE2 /* Frameworks */,
+				F2AE39181ABC151E00BDDBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeGestureRecognizer;
+			productName = SwipeGestureRecognizer;
+			productReference = F2AE391A1ABC151E00BDDBE2 /* SwipeGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2AE39321ABC151E00BDDBE2 /* SwipeGestureRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2AE39401ABC151E00BDDBE2 /* Build configuration list for PBXNativeTarget "SwipeGestureRecognizerTests" */;
+			buildPhases = (
+				F2AE392F1ABC151E00BDDBE2 /* Sources */,
+				F2AE39301ABC151E00BDDBE2 /* Frameworks */,
+				F2AE39311ABC151E00BDDBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2AE39351ABC151E00BDDBE2 /* PBXTargetDependency */,
+			);
+			name = SwipeGestureRecognizerTests;
+			productName = SwipeGestureRecognizerTests;
+			productReference = F2AE39331ABC151E00BDDBE2 /* SwipeGestureRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2AE39121ABC151E00BDDBE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Ron;
+				TargetAttributes = {
+					F2AE39191ABC151E00BDDBE2 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F2AE39321ABC151E00BDDBE2 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F2AE39191ABC151E00BDDBE2;
+					};
+				};
+			};
+			buildConfigurationList = F2AE39151ABC151E00BDDBE2 /* Build configuration list for PBXProject "SwipeGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2AE39111ABC151E00BDDBE2;
+			productRefGroup = F2AE391B1ABC151E00BDDBE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2AE39191ABC151E00BDDBE2 /* SwipeGestureRecognizer */,
+				F2AE39321ABC151E00BDDBE2 /* SwipeGestureRecognizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2AE39181ABC151E00BDDBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AE39291ABC151E00BDDBE2 /* Main.storyboard in Resources */,
+				F2AE392E1ABC151E00BDDBE2 /* LaunchScreen.xib in Resources */,
+				F2AE392B1ABC151E00BDDBE2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AE39311ABC151E00BDDBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2AE39161ABC151E00BDDBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AE39261ABC151E00BDDBE2 /* ViewController.m in Sources */,
+				F2AE39231ABC151E00BDDBE2 /* AppDelegate.m in Sources */,
+				F2AE39201ABC151E00BDDBE2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AE392F1ABC151E00BDDBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AE393A1ABC151E00BDDBE2 /* SwipeGestureRecognizerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2AE39351ABC151E00BDDBE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2AE39191ABC151E00BDDBE2 /* SwipeGestureRecognizer */;
+			targetProxy = F2AE39341ABC151E00BDDBE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2AE39271ABC151E00BDDBE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AE39281ABC151E00BDDBE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2AE392C1ABC151E00BDDBE2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2AE392D1ABC151E00BDDBE2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2AE393B1ABC151E00BDDBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2AE393C1ABC151E00BDDBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2AE393E1ABC151E00BDDBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F2AE393F1ABC151E00BDDBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipeGestureRecognizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F2AE39411ABC151E00BDDBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwipeGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeGestureRecognizer.app/SwipeGestureRecognizer";
+			};
+			name = Debug;
+		};
+		F2AE39421ABC151E00BDDBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwipeGestureRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeGestureRecognizer.app/SwipeGestureRecognizer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2AE39151ABC151E00BDDBE2 /* Build configuration list for PBXProject "SwipeGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AE393B1ABC151E00BDDBE2 /* Debug */,
+				F2AE393C1ABC151E00BDDBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2AE393D1ABC151E00BDDBE2 /* Build configuration list for PBXNativeTarget "SwipeGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AE393E1ABC151E00BDDBE2 /* Debug */,
+				F2AE393F1ABC151E00BDDBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2AE39401ABC151E00BDDBE2 /* Build configuration list for PBXNativeTarget "SwipeGestureRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2AE39411ABC151E00BDDBE2 /* Debug */,
+				F2AE39421ABC151E00BDDBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2AE39121ABC151E00BDDBE2 /* Project object */;
+}
